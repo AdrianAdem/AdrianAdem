@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  🔗 <a href="https://leetcode.com/Adrian08/">leetcode.com/DEIN_USERNAME</a>
+  🔗 <a href="https://leetcode.com/Adrian08/">leetcode.com/Adrian08</a>
 </p>
 
 ---
