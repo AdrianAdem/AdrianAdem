@@ -17,6 +17,25 @@
 
 ---
 
+---
+
+### 🧠 Algorithms & Problem Solving
+- 🟢 Active on **LeetCode** (Python & Java)
+- 📌 Focus: Arrays, Strings, Trees, Dynamic Programming
+- 🏋️‍♂️ Daily discipline > motivation
+
+<p align="left">
+  <a href="https://leetcode.com/Adrian08/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/Adrian08?theme=dark&font=JetBrains%20Mono"/>
+</p>
+
+---
+
 ### 🤝 Connect with me
 <p align="left">
   <a href="https://github.com/AdrianAdem" target="_blank">
