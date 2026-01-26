@@ -1,16 +1,43 @@
-## Hi there 👋
+<h1 align="center">Hi 👋, I'm Adrian</h1>
+<h3 align="center">Aspiring Computer Science Student | Developer</h3>
 
-<!--
-**AdrianAdem/AdrianAdem** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  🚀 Informatik-Student (zukünftig TU Darmstadt) <br>
+  🧠 Fokus auf sauberen Code, Algorithmen, Systeme & Ki<br>
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 👨‍💻 About Me
+- 🔭 Currently learning **Python, Java & CS Fundamentals**
+- 🌱 Interested in **Algorithms, AI & Software Architecture**
+- 🎯 Goal: Become an excellent engineer, not just a coder
+- 💬 Ask me about **Python, learning strategies & discipline**
+- ⚡ Fun fact: I train Karate & Judo
+
+---
+
+### 🤝 Connect with me
+<p align="left">
+  <a href="https://github.com/AdrianAdem" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github"/>
+  </a>
+</p>
+
+---
+
+### 🛠 Languages & Tools
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,java,c,git,linux,github,vscode" />
+</p>
+
+---
+
+### 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight" />
+</p>
