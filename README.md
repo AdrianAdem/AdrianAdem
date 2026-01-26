@@ -38,7 +38,7 @@
     <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github"/>
   </a>
   <a href="https://www.linkedin.com/in/adrian-ademovic-75ba6a268/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=YOUR_LINKEDIN_URL"/>
+    <img src="https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=Linkedin"/>
   </a>
 </p>
 
