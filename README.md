@@ -43,7 +43,7 @@
 
 ### 🛠 Languages & Tools
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,docker,git,github,java,py,vscode,obsidian,figma,ai,id" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,docker,git,github,java,py,vscode,latex,obsidian,figma,ai,id" />
 </p>
 
 ---
