@@ -1,4 +1,7 @@
-<img src="assets/hero.svg" alt="Adrian Ademovic — systems that act on their own, and are wrong safely" width="100%"/>
+# Adrian Ademovic
+
+**Systems that act on their own, and are wrong safely.**
+Systems programmer heading toward defense technology.
 
 I build software that runs while nobody is watching it, and I care most about what it does when it is wrong. A trading agent whose risk layer is allowed to veto its own strongest signal. A market scanner that answers a malformed model response with *no signal* instead of a guess. A prompt toolchain that ships the evaluation harness next to the prompt, because a prompt nobody measured is a prompt nobody trusts.
 
