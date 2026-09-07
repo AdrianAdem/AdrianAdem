@@ -102,7 +102,7 @@ Computer Science at TU Darmstadt from October 2026. I run [**Latent**](https://l
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/adrian-ademovic-75ba6a268/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn"/></a>&nbsp;<a href="https://leetcode.com/u/Adrian08/"><img src="https://img.shields.io/badge/LeetCode-F0A032?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0D1117" alt="LeetCode"/></a>&nbsp;<a href="https://latentdev.de"><img src="https://img.shields.io/badge/latentdev.de-4C8DAE?style=for-the-badge&logo=safari&logoColor=white&labelColor=0D1117" alt="Website"/></a>&nbsp;<a href="mailto:ademovic0@web.de"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=maildotcom&logoColor=white&labelColor=0D1117" alt="Email"/></a>
+<a href="https://www.linkedin.com/in/adrian-ademovic-75ba6a268/"><img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn"/></a> <a href="https://leetcode.com/u/Adrian08/"><img src="https://img.shields.io/badge/LeetCode-Adrian08-F0A032?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0D1117" alt="LeetCode"/></a> <a href="https://latentdev.de"><img src="https://img.shields.io/badge/Latent-latentdev.de-4C8DAE?style=for-the-badge&logo=safari&logoColor=white&labelColor=0D1117" alt="Website"/></a> <a href="mailto:ademovic0@web.de"><img src="https://img.shields.io/badge/Email-get%20in%20touch-D14836?style=for-the-badge&logo=maildotcom&logoColor=white&labelColor=0D1117" alt="Email"/></a>
 
 <br>
 
