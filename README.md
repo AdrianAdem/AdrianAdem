@@ -1,4 +1,4 @@
-<img src="assets/hero.png" alt="Adrian Ademovic — systems programmer heading toward defense technology. Acts alone, fails safe." width="100%"/>
+<img src="assets/hero.png" alt="Adrian Ademovic — systems that act on their own, and are wrong safely." width="100%"/>
 
 ## What I build
 
