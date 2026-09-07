@@ -70,6 +70,7 @@ Swift and SwiftUI, currently at the level where I can build a screen but not yet
 
 <br>
 
+
 </div>
 
 **Python** — asyncio, FastAPI, pandas, pytest, ruff &nbsp;·&nbsp; **TypeScript** — React, Supabase, Vite, Tailwind &nbsp;·&nbsp; **LLM pipelines** — Claude API, tiered routing, prompt caching, cost accounting. **Swift and SwiftUI** are in the learning phase, and I would rather say so than list them as a skill.
