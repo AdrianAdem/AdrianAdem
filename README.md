@@ -47,7 +47,23 @@ Swift and SwiftUI, currently at the level where I can build a screen but not yet
 
 ### Stack
 
-**Python** — asyncio, FastAPI, pandas, pytest, ruff &nbsp;·&nbsp; **TypeScript** — React, Supabase, Vite, Tailwind &nbsp;·&nbsp; **LLM pipelines** — Claude API, tiered routing, prompt caching, cost accounting &nbsp;·&nbsp; **Tooling** — Git, GitHub Actions, Docker where it is genuinely the simplest option
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=py,ts,js,react,nextjs,fastapi,supabase,postgres,tailwind,docker,git,github,vscode,swift&theme=dark&perline=7" alt="Python, TypeScript, JavaScript, React, Next.js, FastAPI, Supabase, Postgres, Tailwind, Docker, Git, GitHub, VS Code, Swift"/>
+
+</div>
+
+**Python** — asyncio, FastAPI, pandas, pytest, ruff &nbsp;·&nbsp; **TypeScript** — React, Supabase, Vite, Tailwind &nbsp;·&nbsp; **LLM pipelines** — Claude API, tiered routing, prompt caching, cost accounting. **Swift and SwiftUI** are in the learning phase, and I would rather say so than list them as a skill.
+
+---
+
+### Algorithms
+
+<div align="center">
+
+<img src="https://leetcard.jacoblin.cool/Adrian08?theme=dark&font=JetBrains%20Mono&ext=activity" alt="LeetCode statistics" width="520"/>
+
+</div>
 
 ---
 
@@ -55,4 +71,11 @@ Swift and SwiftUI, currently at the level where I can build a screen but not yet
 
 Computer Science at TU Darmstadt from October 2026. I run [**Latent**](https://latentdev.de) alongside it — web design and AI automation for owner-run businesses around Frankfurt, which is where I learned to ship something a stranger has to use on the first try. Karate and Judo.
 
-<sub>[LinkedIn](https://www.linkedin.com/in/adrian-ademovic-75ba6a268/) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/Adrian08/) &nbsp;·&nbsp; [ademovic0@web.de](mailto:ademovic0@web.de)</sub>
+<div align="center">
+
+<a href="https://www.linkedin.com/in/adrian-ademovic-75ba6a268/"><img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="34"/></a>
+<a href="https://leetcode.com/u/Adrian08/"><img src="https://img.shields.io/badge/LeetCode-Adrian08-F0A032?style=for-the-badge&logo=leetcode&logoColor=0A0C0B" alt="LeetCode" height="34"/></a>
+<a href="https://latentdev.de"><img src="https://img.shields.io/badge/latentdev.de-visit-14161A?style=for-the-badge&logo=safari&logoColor=white" alt="Website" height="34"/></a>
+<a href="mailto:ademovic0@web.de"><img src="https://img.shields.io/badge/Email-get%20in%20touch-D14836?style=for-the-badge&logo=maildotcom&logoColor=white" alt="Email" height="34"/></a>
+
+</div>
