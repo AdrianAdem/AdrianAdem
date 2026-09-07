@@ -4,7 +4,12 @@ I build software that runs while nobody is watching it, and I care most about wh
 
 I am heading toward defense technology and autonomy. I have no domain experience there yet and will not pretend otherwise — what I bring is the habit the domain runs on: hard gates, fail-closed defaults, no-lookahead validation, and no model output trusted without a check behind it.
 
+
+<br>
+
 ---
+
+<br>
 
 ### Systems
 
@@ -24,7 +29,12 @@ I am heading toward defense technology and autonomy. I have no domain experience
 
 <sub>All MIT. Architecture notes and setup live in each repository.</sub>
 
+
+<br>
+
 ---
+
+<br>
 
 ### How I work
 
@@ -43,29 +53,48 @@ Swift and SwiftUI, currently at the level where I can build a screen but not yet
 
 </details>
 
+
+<br>
+
 ---
+
+<br>
 
 ### Stack
 
 <div align="center">
 
+<br>
+
 <img src="https://skillicons.dev/icons?i=py,ts,js,react,nextjs,fastapi,supabase,postgres,tailwind,docker,git,github,vscode,swift&theme=dark&perline=7" alt="Python, TypeScript, JavaScript, React, Next.js, FastAPI, Supabase, Postgres, Tailwind, Docker, Git, GitHub, VS Code, Swift"/>
+
+<br>
 
 </div>
 
 **Python** — asyncio, FastAPI, pandas, pytest, ruff &nbsp;·&nbsp; **TypeScript** — React, Supabase, Vite, Tailwind &nbsp;·&nbsp; **LLM pipelines** — Claude API, tiered routing, prompt caching, cost accounting. **Swift and SwiftUI** are in the learning phase, and I would rather say so than list them as a skill.
 
+
+<br>
+
 ---
+
+<br>
 
 ### Algorithms
 
 <div align="center">
 
-<img src="https://leetcard.jacoblin.cool/Adrian08?theme=dark&font=JetBrains%20Mono&ext=activity" alt="LeetCode statistics" width="520"/>
+<img src="https://leetcard.jacoblin.cool/Adrian08?theme=dark&font=JetBrains%20Mono" alt="LeetCode statistics" width="520"/>
 
 </div>
 
+
+<br>
+
 ---
+
+<br>
 
 ### Elsewhere
 
@@ -73,9 +102,8 @@ Computer Science at TU Darmstadt from October 2026. I run [**Latent**](https://l
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/adrian-ademovic-75ba6a268/"><img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="34"/></a>
-<a href="https://leetcode.com/u/Adrian08/"><img src="https://img.shields.io/badge/LeetCode-Adrian08-F0A032?style=for-the-badge&logo=leetcode&logoColor=0A0C0B" alt="LeetCode" height="34"/></a>
-<a href="https://latentdev.de"><img src="https://img.shields.io/badge/latentdev.de-visit-14161A?style=for-the-badge&logo=safari&logoColor=white" alt="Website" height="34"/></a>
-<a href="mailto:ademovic0@web.de"><img src="https://img.shields.io/badge/Email-get%20in%20touch-D14836?style=for-the-badge&logo=maildotcom&logoColor=white" alt="Email" height="34"/></a>
+<a href="https://www.linkedin.com/in/adrian-ademovic-75ba6a268/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn"/></a>&nbsp;<a href="https://leetcode.com/u/Adrian08/"><img src="https://img.shields.io/badge/LeetCode-F0A032?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0D1117" alt="LeetCode"/></a>&nbsp;<a href="https://latentdev.de"><img src="https://img.shields.io/badge/latentdev.de-4C8DAE?style=for-the-badge&logo=safari&logoColor=white&labelColor=0D1117" alt="Website"/></a>&nbsp;<a href="mailto:ademovic0@web.de"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=maildotcom&logoColor=white&labelColor=0D1117" alt="Email"/></a>
+
+<br>
 
 </div>
