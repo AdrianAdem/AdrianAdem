@@ -1,32 +1,58 @@
-<img src="assets/hero.png" alt="Adrian Ademovic — systems that act on their own, and are wrong safely." width="100%"/>
+<img src="assets/hero.svg" alt="Adrian Ademovic — systems that act on their own, and are wrong safely" width="100%"/>
 
-## What I build
+I build software that runs while nobody is watching it, and I care most about what it does when it is wrong. A trading agent whose risk layer is allowed to veto its own strongest signal. A market scanner that answers a malformed model response with *no signal* instead of a guess. A prompt toolchain that ships the evaluation harness next to the prompt, because a prompt nobody measured is a prompt nobody trusts.
 
-Systems that run unattended and fail in a way I can predict.
+I am heading toward defense technology and autonomy. I have no domain experience there yet and will not pretend otherwise — what I bring is the habit the domain runs on: hard gates, fail-closed defaults, no-lookahead validation, and no model output trusted without a check behind it.
 
-That is one idea in four places. An equity agent that refuses its own strongest signal when the risk layer says no. A market scanner that resolves a malformed model response to *no signal* rather than a guess. A prompt toolchain that ships the evaluation harness next to the prompt, because a prompt nobody measured is a prompt nobody trusts. A health tracker that puts four vendor silos into one schema so the data can finally be correlated.
+---
 
-**Where I am going.** Defense technology and autonomy — systems that have to act on their own, under uncertainty, and be wrong safely. I have no domain experience there and I am not going to pretend otherwise. What I do have is the engineering habit the domain runs on: hard gates, fail-closed defaults, no-lookahead validation, and a bias against trusting a model's output without a check behind it.
+### Systems
 
-## Systems
+<table>
+<tr><td width="180"><b><a href="https://github.com/AdrianAdem/stockpilot">stockpilot</a></b><br><sub>Python · Alpaca</sub></td>
+<td>Autonomous equity agent. Momentum, mean reversion, 13F institutional flow and a two-tier Claude analyst weighted into one score.<br><sub><b>The constraint:</b> 0.25% of equity at risk per trade, sector caps, drawdown breakers. Stops rest at the broker as real GTC orders and fire while the bot is offline.</sub></td></tr>
 
-| | | |
-|---|---|---|
-| **[stockpilot](https://github.com/AdrianAdem/stockpilot)** | Autonomous equity agent for Alpaca. Momentum, mean reversion, 13F institutional flow and a two-tier Claude analyst are weighted into one score — which the risk layer is allowed to reject. 0.25% of equity at risk per trade, sector caps, drawdown breakers. Stops rest at the broker as real GTC orders and fire while the bot is offline. | `Python` `asyncio` `FastAPI` `Alpaca` |
-| **[polyedge](https://github.com/AdrianAdem/polyedge)** | Event-driven scanner for Polymarket. A cheap Haiku pass filters roughly 1,700 open markets before Sonnet reads the survivors — the tiering is the whole cost design. Quarter-Kelly sizing, paper execution only, every API call logged with tokens, latency and USD. | `Python` `asyncio` `websockets` `SQLite` |
-| **[prompt-engineer-skill](https://github.com/AdrianAdem/prompt-engineer-skill)** | An Agent Skill that treats prompt engineering as a procedure. It routes to the right artifact first — hook, skill, subagent or prompt — sizes an eval set to the real volume, and ships a linter and a benchmark. It passes its own linter. | `Python` `Claude Code` `evals` |
-| **[athlete-dashboard](https://github.com/AdrianAdem/athlete-dashboard)** | Self-hosted training and health tracker. Strength logging with 1RM analytics, Strava cardio, barcode nutrition and daily Garmin biometrics behind one Postgres schema with row-level security. | `TypeScript` `React 19` `Supabase` |
+<tr><td><b><a href="https://github.com/AdrianAdem/polyedge">polyedge</a></b><br><sub>Python · Polymarket</sub></td>
+<td>Event-driven scanner for prediction markets. A cheap pass reads roughly 1,700 open markets; only survivors reach the expensive one.<br><sub><b>The constraint:</b> every call logs tokens, latency and USD. The tiering is the entire cost design, and a broken model response resolves to no signal.</sub></td></tr>
 
-All MIT, all with architecture notes and setup in their READMEs.
+<tr><td><b><a href="https://github.com/AdrianAdem/prompt-engineer-skill">prompt-engineer</a></b><br><sub>Agent skill · Claude Code</sub></td>
+<td>Turns a request into a prompt together with the tests that say whether it works.<br><sub><b>The constraint:</b> it decides the artifact first — hook, skill, subagent or prompt — because placement is what determines whether an instruction takes effect at all. Ships a linter and a benchmark, and passes its own linter.</sub></td></tr>
 
-## Stack
+<tr><td><b><a href="https://github.com/AdrianAdem/athlete-dashboard">athlete-dashboard</a></b><br><sub>TypeScript · Supabase</sub></td>
+<td>Self-hosted training and health tracker: strength logging, Strava cardio, barcode nutrition and daily Garmin biometrics.<br><sub><b>The constraint:</b> one Postgres schema behind row-level security, so "did my HRV drop in the weeks my volume spiked" is a query rather than four apps.</sub></td></tr>
+</table>
 
-**Python** — async, FastAPI, pandas, pytest, ruff. **TypeScript** — React, Supabase, Vite, Tailwind. **LLM pipelines** with the Claude API, as a tool and as a product layer. **Swift/SwiftUI** in the learning phase, and I will say so rather than list it as a skill.
+<sub>All MIT. Architecture notes and setup live in each repository.</sub>
 
-## Also
+---
 
-Computer Science at TU Darmstadt from October 2026. I run [Latent](https://latentdev.de) on the side — web design and AI automation for owner-run businesses around Frankfurt, which is where I learned to ship something a stranger has to use. Karate and Judo.
+### How I work
 
-Open to internships and working-student roles, especially where a system has to act on its own.
+**I write down what the system is not allowed to do before I write what it does.** Position caps, drawdown breakers and per-scan call budgets exist in these projects because an autonomous process without a ceiling is a process waiting to find one.
 
-<sub>[LinkedIn](https://www.linkedin.com/in/adrian-ademovic-75ba6a268/) · [LeetCode](https://leetcode.com/u/Adrian08/) · [ademovic0@web.de](mailto:ademovic0@web.de)</sub>
+**Failure resolves to inaction, never to a guess.** Malformed model output, a missing feed, an API error: all of them end in "no trade", not in a default. Live execution in both trading projects is a deliberate stub that raises rather than a flag someone can flip by accident.
+
+**A number I did not measure does not go in the README.** Backtests fill on the next open and check stops against intraday lows, because a result that quietly reads tomorrow's price is worse than no result.
+
+<details>
+<summary>What I am still learning</summary>
+
+<br>
+
+Swift and SwiftUI, currently at the level where I can build a screen but not yet architect an app. Deep CS fundamentals, which is what the degree is for. I do not have production DevOps experience beyond straightforward deploys, and I would rather say so than discover it in the first week.
+
+</details>
+
+---
+
+### Stack
+
+**Python** — asyncio, FastAPI, pandas, pytest, ruff &nbsp;·&nbsp; **TypeScript** — React, Supabase, Vite, Tailwind &nbsp;·&nbsp; **LLM pipelines** — Claude API, tiered routing, prompt caching, cost accounting &nbsp;·&nbsp; **Tooling** — Git, GitHub Actions, Docker where it is genuinely the simplest option
+
+---
+
+### Elsewhere
+
+Computer Science at TU Darmstadt from October 2026. I run [**Latent**](https://latentdev.de) alongside it — web design and AI automation for owner-run businesses around Frankfurt, which is where I learned to ship something a stranger has to use on the first try. Karate and Judo.
+
+<sub>[LinkedIn](https://www.linkedin.com/in/adrian-ademovic-75ba6a268/) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/Adrian08/) &nbsp;·&nbsp; [ademovic0@web.de](mailto:ademovic0@web.de)</sub>
