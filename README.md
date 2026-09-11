@@ -1,8 +1,8 @@
-<img src="assets/hero-graft.png" alt="Adrian Ademovic — Software, Design, Autonomy" width="100%"/>
+<img src="assets/hero-pixel.png" alt="Adrian Ademovic — Software, Design, Autonomy" width="100%"/>
 
 <br>
 
-I'm Adrian, founder of [Latent](https://latentdev.de), where I build websites and AI automations for local businesses. I start Computer Science at **TU Darmstadt in October 2026**, following an Abitur focused on media production and design.
+I'm Adrian, founder of [Latent Webdesign & Ki](https://latentdev.de), where I build websites and AI automations for local businesses. I start Computer Science at **TU Darmstadt in October 2026**, following an Abitur focused on media production and design.
 
 My projects bring together **software, AI tools and visual design**. I'm especially interested in autonomy and defense technology — a direction I want to explore through my studies and future work.
 
