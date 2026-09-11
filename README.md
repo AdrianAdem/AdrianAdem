@@ -1,4 +1,4 @@
-<img src="assets/hero.svg" alt="Adrian Ademovic — founder and software builder" width="100%"/>
+<img src="assets/hero-graft.png" alt="Adrian Ademovic — Software, Design, Autonomy" width="100%"/>
 
 <br>
 
